@@ -1,0 +1,25 @@
+import dummy.interest;
+    class karur implements interest {
+        public void interestmoney(int a){
+
+            System.out.println(a*10);
+        }
+    }
+    class iob implements interest{
+        public void interestmoney(int b){
+            System.out.println(b*20);
+        }
+    }
+    class sbi implements interest{
+        public void interestmoney(int c){
+            System.out.println(c*30);
+
+        }
+    }
+    public class bank{
+
+    public static void main(String[] args) {
+        iob in=new iob();
+        in.interestmoney(5);
+    }
+}
